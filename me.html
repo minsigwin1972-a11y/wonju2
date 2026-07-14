@@ -5,36 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>원민식의 페이지</title>
     <style>
+        #menubar {background: lightcoral;}
+        #menubar ul {margin: 0;padding: 0;width: 567px;}
+        #menubar ul li {display: inline-block;list-style-type: none;padding: 0px 15px;}
+        #menubar ul li a {color: white;text-decoration: none;}
+        #menubar ul li a:hover {color: lightgreen;}
     div > div > strong{background-color: yellow;}
-    li:hover{background: yellowgreen;}
+    li:hover{background: lightcoral;}
 </style>
 </head>
 <body>
-    <h1 style="color: crimson;">원민식의 페이지</h1>
+    <nav id="menubar">
+        <ul>
+            <li><a href="#home">홈</a></li>
+            <li><a href="#intro">내 소개</a></li>
+            <li><a href="#hobby">나의 취미</a></li>
+            <li><a href="#game">주로 하는 게임</a></li>
+            <li><a href="#origami">종이접기</a></li>
+            <li><a href="#PR">프라모델</a></li>
+        </ul>
+    </nav>
+    <h1 id="home" style="color: crimson;">원민식의 페이지</h1>
     <hr>
+    <h2 id="intro">내 소개</h2>
+    <p>이름:원민식</p>
+    <p>학교:원주고등학교</p>
+    <p>관심 분야:과학,소프트웨어</p>
   <div>
-    <div>나의 취미</div>
+    <div id="hobby" style="color: crimson;">나의 취미</div>
         <ul>
         <li>컴퓨터 게임</li>
         <li>프라모델 조립</li>
         <li>종이접기</li>
     </ul>
 </div>
-<h3 style="color: cyan;">내가 주로 하는 게임</h3>
 <hr>
+<h3 id="game" style="color: lightcoral;">내가 주로 하는 게임</h3>
 <table border="1">
-    <caption>내가 플레이한 게임 및 누적시간</caption>
+    <caption> -내가 플레이한 게임- 목록/추천</caption>
     <thead>
-        <tr><th>게임 이름</th><th>누적 게임 시간</th></tr>
+        <tr><th>게임 이름</th><th>평가</th></tr>
     </thead>
     <tfoot>
-    <tbody>
-        <tr><th style="color: red;">War Thunder</th><th>1840시간</th></tr>
-        <tr><th style="color: green;">Minecraft</th><th>약1200시간</th></tr>
-        <tr><th style="color: yellow;">subnautica</th><th>96.3시간</th></tr>
-        <tr><th style="color: blue;">Star Craft</th><th>약51시간</th></tr>
-    </tbody>
+        <tbody>
+            <tr><th style="color: crimson;">War Thunder</th><th>육군,해군,공군 모두 플레이 가능한 군사 장비 시뮬레이션 게임</th></tr>
+            <tr><th style="color: crimson;">Minecraft</th><th>건축,탐험,등의 창의성과 자유도가 매우 높은 게임</th></tr>
+            <tr><th style="color: crimson;">subnautica</th><th>외계 심해 해양 탐사 게임으로 공포의 요소가 좀 많이 들어감</th></tr>
+            <tr><th style="color: crimson;">Star Craft</th><th>3가지 족족을 플레이 하며 다양한 전술 전략을 활용하여 플레이 하는 게임</th></tr>
+        </tbody>
 </tfoot>
-<p>기타 질문은 minsigwin1972@gmail.com으로</p>
+</table>
+<hr>
+<h2 id="origami" style="color: darkolivegreen;">종이접기</h2>
+<div>제가 하는 종이접기는 초딩들이나 하는 것이 아니라 종이접기 전문가 수준입니다.</div>
+<p>종이 접기는 여러장 접기,페이퍼빌드,박스플립,한장종이접기,등이 있는데 저는 박스 플립과 한장 종이접기 기법을 사용합니다.</p>
+<p>저는 종이를 접는거 뿐만 아니라 직접 가공(특히 풀먹인 한지:물과 목공풀을 1:1로 섞어 종이에 펴발라 종이의 내구성 강화)하거나 제단,도색까지 합니다</p>
+<img src="images/에이션트.jpg" width="300" height="300"><img src="images/카미야사토시_류진3.5.png" width="300" height="300">
+<p style="color: gray;">대표적인 유명한 작품 사진 (좌)카미야 사토시-에이션트 드레곤[한장 종이접기]/(우)카미야 사토시-류진3.5[박스플립]</p>
+<h3 style="color: olivedrab;">종이접기에 입문하고 싶다면?</h3>
+<hr>
+<table border="1">
+    <caption>사용한 종이 평가</caption>
+    <thead>
+        <tr><th>종이</th><th>평가</th></tr>
+    </thead>
+    <tfoot>
+        <tbody>
+            <tr><th style="color: olive;">풀먹인 한지</th><th>기본적인 한지에서 직접 가공을 거처 만든 종이.종이가 질겨 잘 안찢기고 종이가 앏아 전문가용으로 적극 추천</th></tr>
+            <tr><th style="color: olive;">크라프트지</th><th>한지와 마찬가지로 종이가 잘 안찢어지지만 많이 접다 보면 두꺼워짐.사용하는 색깔의 제한이있다는 단점이 존제한다</th></tr>
+            <tr><th style="color: olive;">금은지</th><th>작품을 만들었을때 고정력이 강하지만 종이가 두꺼워지면 잘찢김.하지만 고정력이 다른 종이보다 압도적으로 높아 연습용으로 추천</th></tr>
+            <tr><th style="color: olive;">일반 색종이</th><th>종이가 질기지도 않지만 색이 예쁜게 많음.종이접기를 전문으로 할거면 [30 X 30]짜리를 사용하는걸 추천</th></tr>
+        </tbody>
+</tfoot>
+</table>
+<hr>
+<h2 id="PR" style="color: aqua;">프라모델</h2>
+<p>프라모델은 건담이나 밀리터리로 나뉘는데 저는 주로 밀리터리 프라모델을 조립 합니다.밀리터리는 여러색으로 나오는 건담과는 다르게 단색으로 나와서
+밀리터리 프라는 도색하는 과정이 매우 중요합니다. 그리하여 조립 뿐만아니라 서페이서/도색/웨더링/데칼순으로 작품이 만들어지고
+여기서 더나아가면 디오라마 까지인데 디오라마는 공간 차지와 가격이 매우 많이 나감으로 저는 추천 안합니다.</p>
 </body>
 </html>
